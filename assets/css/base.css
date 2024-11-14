@@ -1,0 +1,68 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --btn-color: #04AA6D;
+    --btn-hover-color: #059862;
+    --primary-color: #00aa6e;
+    --slide-grey-color: #282A35;
+    --slide-14-color: rgb(150, 212, 212);
+    --slide-12-color: rgb(243, 236, 234);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.open {
+    display: flex !important;
+    justify-content: center;
+}
+
+ ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.modal.open {
+    display: block !important;
+    /* overflow: hidden; */
+}
+
+.mt-16 a {
+    margin-top: 16px !important;
+}
+
+.modal-tutorials__content {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Đối với Firefox */
+    scroll-behavior: smooth;
+    /* Cuộn mượt */
+}
+
+.modal-tutorials__content::-webkit-scrollbar {
+    display: none;
+    /* Ẩn thanh cuộn trong Chrome, Safari và Edge */
+}
