@@ -27,9 +27,9 @@ body {
     line-height: 31.5px;
 }
 
-.Side_bar .sidebar-hover{
+.sidebar-hover{
     background-color:#04AA6D;
-    color: #fff;
+    color: #fff !important;
 }
 .Side_bar .sidebar-hover:hover{
     background-color:#04AA6D;
