@@ -933,7 +933,7 @@ HEAD .slide {
     text-decoration: none;
     color: var(--text-color);
     font-size: 1rem;
-    padding: 16px 16px;
+    padding: 16px 14px;
 }
 
 .navbar__selection:hover {
@@ -1028,12 +1028,12 @@ HEAD .slide {
 }
 
 .navbar_right-icon {
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #b48ff6;
 }
 
 .navbar_right-text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-left: 4px;
 }
 
@@ -1423,7 +1423,9 @@ HEAD .slide {
     left: 0;
     right: 0;
 }
-
+.header__item{
+    font-family: Source Sans Pro;
+}
 .header__list {
     list-style: none;
     display: flex;
