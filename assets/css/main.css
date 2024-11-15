@@ -932,8 +932,8 @@ HEAD .slide {
 .navbar__selection {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1.6rem;
-    padding: 20px 20px;
+    font-size: 1rem;
+    padding: 16px 16px;
 }
 
 .navbar__selection:hover {
@@ -1021,19 +1021,19 @@ HEAD .slide {
 .navbar__service {
     display: flex;
     align-items: center;
-    padding: 8px 10px;
+    padding: 6px 3px;
     border-radius: 25px;
     height: 38px;
     animation: opacity 0.1s ease;
 }
 
 .navbar_right-icon {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #b48ff6;
 }
 
 .navbar_right-text {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     margin-left: 4px;
 }
 
